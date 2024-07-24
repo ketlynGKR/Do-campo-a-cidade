@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Rubik+Scribble&display=swap');
+
+:root {
+    --fonte-1: Staatliches;
+    --fonte-2: Days One;
+    --fonte-3: Rubik Scribble;
+
+    --verde: #A8DDB7;
+    --verde-escuro: #010C11;
+    --azul: #01171B;
+}
+
+body {
+    background-color: var(--verde-escuro);
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+.fundo {
+    background-image: url("fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.cabe {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--verde-escuro);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    margin-top: 4%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 40px;
+    list-style: none;
+    background-color: var(--verde-escuro);
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: 0.2s;
+    animation-delay: 0;
+}
+
+li:hover {
+    background-color: var(--verde);
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-2);
+}
+
+.linha {
+    width: 2px;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha {
+    margin-top: -94%;
+    margin-left: 6%;
+}
+.linha-2 {
+    width: 2px;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha-2 {
+    margin-top: -120%;
+    margin-left: 94%;
+}
+
+
+.titulo {
+    position: absolute;
+    top: 0;
+    width: 35%;
+    height: 100%;
+}
+
+.assunto {
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    box-shadow: 1px -100px 100px black;
+}
+
+h1 {
+    font-family: var(--fonte-1);
+    color: white;
+    text-align: center;
+    padding-top: 50%;
+}
+
+.do {
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin-inline-start: 0;
+}
+
+.colhendo {
+    font-family: var(--fonte-2);
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 12%;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-top: -18px;
+}
+
+.introducao {
+    width: 65%;
+    margin-left: 13%;
+    font-family: var(--fonte-2);
+    color: white;
+    font-size: 9px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+button {
+    padding: 20px 70px;
+    margin-top: 7%;
+}
+
+button {
+    color: white;
+    font-family: var(--fonte-2);
+    border: 2px solid white;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 5px 20px black;
+    background-color: var(--verde-escuro);
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: var(--azul);
+    border-radius: 30px;
+}
