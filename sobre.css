@@ -20,23 +20,17 @@
 .parte-2 {
     background-image: linear-gradient(to bottom, var(--verde-escuro), var(--azul));
     width: 100%;
-    height: 100vh;
+    height: 115vh;
     color: white;
 }
 
 .l3 {
-    background-color: white;
-    width: 50%;
-    height: 1px; 
-    margin: auto; 
-    margin-top: 3%;
-}
-
-.campo img {
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 5px 20px black;
-    border-radius: 20px;
+    background-color: transparent;
+    width: 90%;
+    height: 2px; 
+    border-bottom: 1px double white;
+    margin: auto;
+    margin-top: 3% ;
 }
 
 .campo{
@@ -44,35 +38,33 @@
     height: 300px;
 }
 
-.cidade img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin-top: -25%;
-    box-shadow: 0 5px 20px black;
-    border-radius: 20px;
-}
-
 .cidade{
     width: 400px;
     height: 300px;
 }
 
-.campo audio{
-    position: relative;
+.campo img {
     width: 100%;
-    height: 30px;
-    margin-top: -100%;
-    cursor: pointer;
-    background-color: white;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px var(--verde-escuro);
 }
 
-.cidade audio{
-    position: relative;
+.cidade img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 20px var(--verde-escuro);
+    margin-top: -25%;
+    border-radius: 20px;
+}
+
+#som{
+    z-index: -1;
     width: 100%;
     height: 30px;
     margin-top: -100%;
     cursor: pointer;
+    box-shadow: 0 5px 20px var(--verde-escuro);
     background-color: white;
 }
 
@@ -88,20 +80,29 @@
 
 .sobre-1 {
     margin-left: 54%;
+    background-color: transparent;
+}
+
+.sobre-2 {
+    background-color: transparent;
 }
 
 h2 {
-    font-family: var(--fonte-3);
+    font-family: var(--fonte-1);
     font-size: 50px;
-    color: var(--verde);
+    background-color: transparent;
+    color: white;
+    letter-spacing: 4px;
     margin-top: 15%;
 }
 
 #p2 {
+    color: white;
     background-color: transparent;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 7px double var(--verde);
+    border-bottom: 1px solid var(--verde);
     text-align: justify;
+    box-shadow: 0 5px 20px var(--verde-escuro);
     font-family: var(--fonte-2);
     letter-spacing: 3px;
     font-size: 13px;
@@ -111,23 +112,26 @@ h2 {
     padding: 5%;
     width: 60%;
     height: 50px;
+    border-radius: 0 0 20px 20px;
     margin-top: 1%;
 }
 
 .tem {
     padding: 2%;
     width: 26%;
-    height: 65px;
+    height: 55px;
+    border-radius: 0 0 20px 20px;
     margin-left: 20%;
     margin-top: 7%;
 }
 
 .quadrado {
     background-color: transparent;
-    border: 3px solid var(--verde);
+    border: 6px double var(--verde);
     width: 400px;
     height: 300px;
     margin-top: -70%;
     margin-left: 10%;
+    box-shadow: 0 10px 25px var(--verde-escuro);
     border-radius: 0 20px 0 0;
 }

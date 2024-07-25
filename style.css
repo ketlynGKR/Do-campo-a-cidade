@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: var(--azul);
+    background-color: var(--verde-escuro);
 }
 
 * { 
@@ -46,6 +46,7 @@ body {
     background-color: var(--verde-escuro);
     backdrop-filter: blur(5px);
     position: fixed;
+    z-index: 1;
     margin-top: 4%;
 }
 
@@ -87,9 +88,12 @@ a {
 }
 
 .linha {
-    margin-top: -94%;
-    margin-left: 6%;
+    margin:auto;
+    float: left;
+    margin-left: 5%;
+    margin-top: -75%;
 }
+
 .linha-2 {
     width: 2px;
     height: 90%;
@@ -100,8 +104,10 @@ a {
 }
 
 .linha-2 {
-    margin-top: -120%;
-    margin-left: 94%;
+    margin: auto;
+    float: right;
+    margin-right: 5%;
+    margin-top: -75%;
 }
 
 
@@ -116,6 +122,7 @@ a {
     background-color: transparent;
     backdrop-filter: blur(50px);
     box-shadow: 1px -100px 100px black;
+    z-index: 2;
 }
 
 h1 {
