@@ -1,11 +1,13 @@
+@import url("styles/sobre.css");
+@import url("styles/oportunidades.css");
+@import url("styles/contatos.css");
+
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Rubik+Scribble&display=swap');
 
 :root {
     --fonte-1: Staatliches;
     --fonte-2: Days One;
-    --fonte-3: Rubik Scribble;
 
     --verde: #A8DDB7;
     --verde-escuro: #010C11;
@@ -169,6 +171,7 @@ button {
 }
 
 button {
+    cursor: pointer;
     color: white;
     font-family: var(--fonte-2);
     border: 2px solid white;
@@ -181,4 +184,17 @@ button {
 button:hover {
     background-color: var(--azul);
     border-radius: 30px;
+}
+
+
+footer {
+    width: 100%;
+    font-family: var(--fonte-2);
+    background-color: var(--verde);
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
 }

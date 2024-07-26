@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+:root {
+    --fonte-1: Staatliches;
+    --fonte-2: Days One;
+
+    --verde: #A8DDB7;
+    --verde-escuro: #010C11;
+    --azul: #01171B;
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+.parte-2 {
+    background-image: linear-gradient(to bottom, var(--verde-escuro), var(--azul));
+    width: 100%;
+    height: 115vh;
+    color: white;
+}
+
+.l3 {
+    background-color: transparent;
+    width: 90%;
+    height: 2px; 
+    border-bottom: 1px double white;
+    margin: auto;
+    margin-top: 3% ;
+}
+
+.campo{
+    width: 400px;
+    height: 300px;
+}
+
+.cidade{
+    width: 400px;
+    height: 300px;
+}
+
+.campo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px var(--verde-escuro);
+}
+
+.cidade img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 20px var(--verde-escuro);
+    margin-top: -25%;
+    border-radius: 20px;
+}
+
+#som{
+    z-index: -1;
+    width: 100%;
+    height: 30px;
+    margin-top: -100%;
+    cursor: pointer;
+    box-shadow: 0 5px 20px var(--verde-escuro);
+    background-color: white;
+}
+
+#cp {
+    margin-left: 20%;
+    margin-top: -8%;
+}
+
+#cd {
+    float: right;
+    margin-right: 20%;
+}
+
+.sobre-1 {
+    margin-left: 54%;
+    background-color: transparent;
+}
+
+.sobre-2 {
+    background-color: transparent;
+}
+
+h2 {
+    font-family: var(--fonte-1);
+    font-size: 50px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 4px;
+    margin-top: 15%;
+}
+
+#p2 {
+    color: white;
+    background-color: transparent;
+    border-top: 7px double var(--verde);
+    border-bottom: 1px solid var(--verde);
+    text-align: justify;
+    box-shadow: 0 5px 20px var(--verde-escuro);
+    font-family: var(--fonte-2);
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.objetivo {
+    padding: 5%;
+    width: 60%;
+    height: 50px;
+    border-radius: 0 0 20px 20px;
+    margin-top: 1%;
+}
+
+.tem {
+    padding: 2%;
+    width: 26%;
+    height: 55px;
+    border-radius: 0 0 20px 20px;
+    margin-left: 20%;
+    margin-top: 7%;
+}
+
+.quadrado {
+    background-color: transparent;
+    border: 6px double var(--verde);
+    width: 400px;
+    height: 300px;
+    margin-top: -70%;
+    margin-left: 10%;
+    box-shadow: 0 10px 25px var(--verde-escuro);
+    border-radius: 0 20px 0 0;
+}
