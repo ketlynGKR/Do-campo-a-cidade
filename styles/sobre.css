@@ -133,3 +133,590 @@ h2 {
     box-shadow: 0 10px 25px var(--verde-escuro);
     border-radius: 0 20px 0 0;
 }
+
+@media screen and (max-width: 2522px) {
+
+    #cp {
+        margin-left: 25%;
+        margin-top: -8%;
+    }
+    
+    #cd {
+        float: right;
+        margin-right: 25%;
+        margin-top: 2%;
+    }
+    
+    .sobre-1 {
+        margin-top: -2%;
+        margin-left: 54%;
+        background-color: transparent;
+    }
+    
+    .sobre-2 {
+        margin-top: -3%;
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 2200px) {
+
+    #cp {
+        margin-left: 20%;
+    }
+    
+    #cd {
+        margin-right: 20%;
+    }
+   
+    .sobre-1 {
+        margin-top: -2%;
+    }
+    
+    .sobre-2 {
+        margin-top: -1%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .parte-2 {
+        background-image: linear-gradient(to bottom, var(--verde-escuro), var(--azul));
+        width: 100%;
+        height: 115vh;
+        color: white;
+    }
+    
+    .l3 {
+        background-color: transparent;
+        width: 90%;
+        height: 2px; 
+        border-bottom: 1px double white;
+        margin: auto;
+        margin-top: 3% ;
+    }
+    
+    .campo{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .cidade{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .campo img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        box-shadow: 0 5px 20px var(--verde-escuro);
+    }
+    
+    .cidade img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 5px 20px var(--verde-escuro);
+        margin-top: -25%;
+        border-radius: 20px;
+    }
+    
+    #som{
+        z-index: -1;
+        width: 100%;
+        height: 30px;
+        margin-top: -100%;
+        cursor: pointer;
+        box-shadow: 0 5px 20px var(--verde-escuro);
+        background-color: white;
+    }
+    
+    #cp {
+        margin-left: 20%;
+        margin-top: -8%;
+    }
+    
+    #cd {
+        float: right;
+        margin-right: 20%;
+    }
+    
+    .sobre-1 {
+        margin-left: 54%;
+        background-color: transparent;
+    }
+    
+    .sobre-2 {
+        background-color: transparent;
+    }
+    
+    h2 {
+        font-family: var(--fonte-1);
+        font-size: 50px;
+        background-color: transparent;
+        color: white;
+        letter-spacing: 4px;
+        margin-top: 15%;
+    }
+    
+    #p2 {
+        color: white;
+        background-color: transparent;
+        border-top: 7px double var(--verde);
+        border-bottom: 1px solid var(--verde);
+        text-align: justify;
+        box-shadow: 0 5px 20px var(--verde-escuro);
+        font-family: var(--fonte-2);
+        letter-spacing: 3px;
+        font-size: 13px;
+    }
+    
+    .objetivo {
+        padding: 5%;
+        width: 60%;
+        height: 50px;
+        border-radius: 0 0 20px 20px;
+        margin-top: 1%;
+    }
+    
+    .tem {
+        padding: 2%;
+        width: 26%;
+        height: 55px;
+        border-radius: 0 0 20px 20px;
+        margin-left: 20%;
+        margin-top: 7%;
+    }
+    
+    .quadrado {
+        background-color: transparent;
+        border: 6px double var(--verde);
+        width: 400px;
+        height: 300px;
+        margin-top: -70%;
+        margin-left: 10%;
+        box-shadow: 0 10px 25px var(--verde-escuro);
+        border-radius: 0 20px 0 0;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+
+    #cp {
+        margin-left: 15%;
+    }
+    
+    #cd {
+        margin-right: 15%;
+    }
+   
+    .sobre-1 {
+        margin-top: -2%;
+    }
+    
+    .sobre-2 {
+        margin-top: -1%;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+  
+    .parte-2 {
+        height: 100vh;
+    }
+    
+    .campo{
+        width: 300px;
+        height: 220px;
+    }
+    
+    .cidade{
+        width: 300px;
+        height: 220px;
+    }
+    
+    #cp {
+        margin-left: 15%;
+    }
+    
+    #cd {
+        margin-right: 15%;
+    }
+    
+    .sobre-1 {
+        margin-left: 54%;
+    }
+    
+    
+    h2 {
+        font-size: 40px;
+    }
+
+    #p2 {
+        font-size: 9px;
+    }
+    
+    .quadrado {
+        width: 300px;
+        height: 220px;
+}
+}
+
+@media screen and (max-width: 935px) {
+      
+
+    
+    #cp {
+        margin-left: 10%;
+    }
+    
+    #cd {
+        margin-right: 10%;
+    }
+    
+    .sobre-1 {
+        margin-left: 50%;
+    }
+    
+    .sobre-2 {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .parte-2 {
+        height: 100vh;
+    }
+    
+    .campo{
+        width: 220px;
+        height: 150px;
+    }
+    
+    .cidade{
+        width: 220px;
+        height: 150px;
+    }
+    
+    #cp {
+        margin-left: 15%;
+    }
+    
+    #cd {
+        margin-right: 15%;
+    }
+    
+    .sobre-1 {
+        margin-top: 10%;
+        margin-left: 54%;
+    }
+    
+    
+    h2 {
+        font-size: 30px;
+    }
+
+    #p2 {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+    
+    .quadrado {
+        width: 220px;
+        height: 150px;
+}
+}
+
+@media screen and (max-width: 710px) {
+    .parte-2 {
+        height: 80vh;
+    }
+    
+    .campo{
+        width: 220px;
+        height: 150px;
+    }
+    
+    .cidade{
+        width: 220px;
+        height: 150px;
+    }
+    
+    #cp {
+        margin-left: 10%;
+    }
+    
+    #cd {
+        margin-right: 10%;
+    }
+    
+    .sobre-1 {
+        margin-left: 54%;
+    }
+    
+    
+    h2 {
+        font-size: 25px;
+    }
+
+    #p2 {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+    
+    .quadrado {
+        width: 220px;
+        height: 150px;
+}
+}
+
+@media screen and (max-width: 696px) {
+    .parte-2 {
+        height: 80vh;
+    }
+    
+    .campo{
+        width: 220px;
+        height: 150px;
+    }
+    
+    .cidade{
+        width: 220px;
+        height: 150px;
+    }
+    
+    #cp {
+        margin-left: 7%;
+    }
+    
+    #cd {
+        margin-right: 7%;
+    }
+    
+    .sobre-1 {
+        margin-left: 54%;
+    }
+    
+    
+    h2 {
+        font-size: 20px;
+    }
+
+    #p2 {
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+    
+    .quadrado {
+        width: 220px;
+        height: 160px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .parte-2 {
+        height: 75vh;
+    }
+    
+    .campo{
+        width: 170px;
+        height: 120px;
+    }
+    
+    .cidade{
+        width: 170px;
+        height: 120px;
+    }
+    
+    #cp {
+        margin-left: 7%;
+    }
+    
+    #cd {
+        margin-right: 7%;
+    }
+    
+    .sobre-1 {
+        margin-left: 54%;
+    }
+    
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    #p2 {
+        font-size: 8px;
+        letter-spacing: 0;
+    }
+    
+    .quadrado {
+        width: 160px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .parte-2 {
+        height: 75vh;
+    }
+    
+    .campo{
+        width: 120px;
+        height: 90px;
+    }
+    
+    .cidade{
+        width: 120px;
+        height: 90px;
+    }
+    
+    #cp {
+        margin-left: 7%;
+    }
+    
+    #cd {
+        margin-right: 7%;
+    }
+    
+    .sobre-1 {
+        margin-left: 50%;
+    }
+    
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    #p2 {
+        margin-top: 15%;
+        font-size: 7px;
+        letter-spacing: 0;
+    }
+    
+    .quadrado {
+        width: 120px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 315px) {
+   
+    .parte-2 {
+        height: 75vh;
+    }
+    
+    .campo{
+        width: 120px;
+        height: 90px;
+    }
+    
+    .cidade{
+        width: 120px;
+        height: 90px;
+    }
+
+    .campo img {
+        box-shadow: 0 0 10px var(--verde);
+    }
+
+    .cidade img {
+        box-shadow: 0 0 10px var(--verde);
+    }
+
+    #som{
+        display: none;
+    }
+    
+    h2 {
+        margin-top: 20%;
+    }
+
+    #p2 {
+        margin-left: 15%;
+    }
+    
+    .quadrado {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 315px) {
+   
+    .parte-2 {
+        height: 75vh;
+    }
+    
+    .campo{
+        width: 120px;
+        height: 90px;
+    }
+    
+    .cidade{
+        width: 120px;
+        height: 90px;
+    }
+
+    .campo img {
+        margin-top: -5%;
+        box-shadow: 0 0 10px var(--verde);
+    }
+
+    .cidade img {
+        margin-top: 5%;
+        box-shadow: 0 0 10px var(--verde);
+    }
+
+    .sobre-1 {
+        margin-left: 45%;
+    }
+    
+    h2 {
+        margin-top: 20%;
+    }
+
+    #p2 {
+        margin-left: 20%;
+        border: none;
+        text-align: center;
+    }
+    
+    .quadrado {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 290px) {
+
+    .parte-2 {
+        height: 60vh;
+    }
+
+    .campo{
+        display: none;
+    }
+
+    .cidade{
+        display: none;
+    }
+
+    .sobre-1 {
+        margin: auto;
+    }
+
+    h2{
+        margin-left: 20%;
+    }
+
+    #p2 {
+        margin: auto;
+        border-top: 7px double var(--verde);
+        border-bottom: 1px solid var(--verde);
+        width: 50%;
+        font-size: 8px;
+    }
+
+    .quadrado {
+        display: none;
+    }
+}

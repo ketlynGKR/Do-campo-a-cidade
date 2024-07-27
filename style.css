@@ -1,6 +1,7 @@
 @import url("styles/sobre.css");
 @import url("styles/oportunidades.css");
 @import url("styles/contatos.css");
+@import url("styles/reponsividade.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
@@ -27,9 +28,11 @@ body {
     background-image: url("fundo.png");
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
+    width: 100%;
 }
 
 .cabecalho {
@@ -46,7 +49,6 @@ body {
     justify-content: flex-end;
     align-items: center;
     background-color: var(--verde-escuro);
-    backdrop-filter: blur(5px);
     position: fixed;
     z-index: 1;
     margin-top: 4%;
@@ -137,7 +139,14 @@ h1 {
 .do {
     font-size: 50px;
     letter-spacing: 4px;
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 12%;
+    margin-inline-end: 0px;
     margin-inline-start: 0;
+    unicode-bidi: isolate;
 }
 
 .colhendo {
@@ -152,7 +161,7 @@ h1 {
     margin-inline-start: 12%;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-    margin-top: -18px;
+    margin-top: -90px;
 }
 
 .introducao {
@@ -197,4 +206,305 @@ h4 {
     display: flex;
     justify-content: center;
     font-size: 15px;
+}
+
+
+@media screen and (max-width: 2522px) {
+
+    .cabe {
+        height: 12vh;
+        margin-top: 3%;
+    }
+    
+
+    .linha {
+        background-color: white;
+        height: 60%;
+    }
+    
+    .linha {
+        margin-top: -30%;
+    }
+    
+    .linha-2 {
+        height: 60%;
+    }
+    
+    .linha-2 {
+        margin-top: -30%;
+    }
+    
+    .titulo {
+        width: 35%;
+    }
+    
+    .do {
+        margin-top: -20%;
+        font-size: 45px;
+        margin-inline-start: 12%;
+    }
+    
+    .colhendo {
+        font-size: 17px;
+        margin-inline-start: 12%;
+        margin-inline-end: 0px;
+    }
+    
+    .introducao {
+        width: 65%;
+        margin-top: -10%;
+        margin-left: 12%;
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+    
+
+    .cabe {
+        height: 9vh;
+        margin-top: 4%;
+    }
+    
+
+    .linha {
+        background-color: white;
+        height: 80%;
+    }
+    
+    .linha {
+        margin-top: -60%;
+    }
+    
+    .linha-2 {
+        height: 80%;
+    }
+    
+    .linha-2 {
+        margin-top: -60%;
+    }
+    
+    .titulo {
+        width: 35%;
+    }
+    
+    .do {
+        margin-top: 0;
+        font-size: 45px;
+        margin-inline-start: 12%;
+    }
+    
+    .colhendo {
+        font-size: 17px;
+        margin-inline-start: 12%;
+        margin-inline-end: 0px;
+    }
+    
+    .introducao {
+        width: 65%;
+        margin-top: 0;
+        margin-left: 12%;
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width: 1292px) {
+    .linha {
+        height: 80%;
+    }
+    
+    .linha {
+        margin-left: 2%;
+        margin-top: -80%;
+    }
+    
+    .linha-2 {
+        height: 80%;
+    }
+    
+    .linha-2 {
+        margin-right: 2%;
+        margin-top: -80%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    li {
+        margin-right: 5px;
+        padding: 5px;
+    }
+
+    .linha {
+        height: 70%;
+    }
+    
+    .linha {
+        margin-left: 4%;
+        margin-top: -75%;
+    }
+    
+    .linha-2 {
+        height:70%;
+    }
+    
+    .linha-2 {
+        margin-right: 4%;
+        margin-top: -75%;
+    }
+    
+    .titulo {
+        width: 50%;
+    }
+    
+    .do {
+        margin-left: 8%;
+    }
+    
+    .colhendo {
+        margin-inline-start: 8%;
+    }
+    
+    .introducao {
+        width: 50%;
+        margin-left: 8%;
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 934px) {
+
+
+    .linha {
+        margin-left: 2%;
+        margin-top: -75%;
+    }
+
+    .linha-2 {
+        margin-right: 2%;
+        margin-top: -75%;
+    }
+
+}
+
+@media screen and (max-width: 845px) {
+
+    li {
+        margin-right:4px;
+        margin-top: 4%;
+    }
+
+    .linha {
+        display: none;
+    }
+
+    .linha-2 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 806px) {
+
+    #a2 {
+        display: none;
+    }
+    
+    li {
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-right: 50px;
+        margin-top: 10%;
+    }
+
+    .introducao {
+        width: 65%;
+        margin-left: 8%;
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    li {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-right: 40px;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    
+    .cabe {
+        z-index: 2;
+        margin-top: 7%;
+    }
+    
+    .titulo {
+        width: 100%;
+    }
+
+    .fundo {
+        background-image: none;
+    }
+    
+    .assunto {
+        backdrop-filter: none;
+        background-color: var(--verde-escuro);
+        box-shadow: none;
+        z-index: 1;
+    }
+    
+    h1 {
+        padding-top: 40%;
+    }
+    
+    .do {
+        font-size: 40px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 12%;
+    }
+    
+    .colhendo {
+        font-size: 15px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 12%;
+        margin-top: -80px;
+    }
+    
+    .introducao {
+        margin-left: 13%;
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+    
+    button {
+        padding: 10px 40px;
+    }
+        
+}
+
+@media screen and (max-width: 180px) {
+   
+    li {
+        margin-right: -50px;
+    }
+
+    .do {
+        width: 100%;
+    }
+
+    .colhendo {
+        width: 100%;
+    }
+
+    .introducao {
+        width: 100%;
+    }
 }

@@ -87,7 +87,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8%;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 10%;
     color: var(--azul);
 }
 
@@ -157,11 +159,6 @@
     width: 26%;
 }
 
-.q {
-    color: var(--azul);
-    font-family: var(--fonte-2);
-}
-
 #lp {
     width: 20px;
     height: 20px;
@@ -212,4 +209,205 @@ input {
     margin-top: 6%;
     position: absolute;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 1220px) {
+
+    .buscar {
+        margin: auto;
+        margin-top: 10%;
+        margin-left: 22%;
+    }
+}
+
+@media screen and (max-width: 852px) {
+
+    .buscar {
+        margin: auto;
+        margin-top: 20%;
+        margin-left: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .encontre {
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+
+    .caixa {
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .buscar {
+        margin: auto;
+        margin-top: 20%;
+        margin-left: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .encontre {
+        letter-spacing: 0;
+        font-size: 12px;
+    }
+
+    .caixa {
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 455px) {
+
+    .buscar {
+        margin: auto;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+
+    input {
+        font-size: 10px;
+    }
+
+    .encontre {
+        font-size: 9px;
+    }
+
+    .l4-f1 {
+        height: 40%; 
+        margin-top: 16%;
+    }
+    
+    .l4-f2 {
+        height: 40%; 
+        margin-top: 16%;
+
+    }
+    
+    .l4-f3 {
+        height: 32%; 
+        margin-top:25%;
+    }
+    
+    .l4-f4 {
+        height: 32%; 
+        margin-top:25%;
+    }
+    
+
+    .caixa {
+        height: 50%;
+    }
+
+    #cargo {
+        width: 70%;
+        height: 10px;
+    }
+    
+    #cidade {
+        width: 70%;
+        height: 10px;
+    }
+    
+    #estado {
+        width: 70%;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .buscar {
+        margin: auto;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+
+    input {
+        font-size: 10px;
+    }
+
+    .op {
+        font-size: 20px;
+    }
+    .encontre {
+        font-size: 9px;
+    }
+
+    .l4-f1 {
+       display: none;
+    }
+    
+    .l4-f2 {
+        display: none;
+    }
+    
+    .l4-f3 {
+        display: none;
+    }
+    
+    .l4-f4 {
+        display: none;
+    }
+    
+
+    .caixa {
+        height: 50%;
+    }
+
+    #cargo {
+        width: 70%;
+        height: 10px;
+    }
+    
+    #cidade {
+        width: 70%;
+        height: 10px;
+    }
+    
+    #estado {
+        width: 70%;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width: 295px) {
+    
+    .buscar {
+        margin: auto;
+        margin-top: 20%;
+        margin-left: 21%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .encontre {
+        font-size: 7px;
+        margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .op {
+        font-size: 12px;
+        margin: auto;
+        margin-top: 10%;
+    }
+    
+    .oq {
+        padding: 1px;
+        border-radius: 10px;
+    }
+
 }
