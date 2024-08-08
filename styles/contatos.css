@@ -59,13 +59,13 @@
 
 .ht {
     background-color: var(--verde);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 0px 20px 20px;
     box-shadow: 0 5px 20px var(--verde);
 }
 
 .pb {
-    background-color: var(--verde-escuro);
-    border-radius: 20px 20px 20px 20px;
+    background-color: var(--verde);
+    border-radius: 20px 20px 20px 0px;
     top: 40%;
 }
 
@@ -75,6 +75,7 @@
     height: 50vh;
     background-color: transparent;
     margin-top: 6%;
+    margin-left: 0%;
 }
 
 .q {
@@ -84,13 +85,13 @@
 
 .ht {
     color: var(--azul);
-    height: 50%;
+    height: 40%;
 }
 
 .pb {
-    height: 50%;
+    height: 45%;
     box-shadow: 0 5px 20px var(--verde);
-    color: var(--verde);
+    color: var(--verde-escuro);
 }
 
 .pa {
@@ -126,7 +127,7 @@ h3 {
 .asm {
     position: absolute;
     text-align: center;
-    margin-left: 28%;
+    margin-left: 30%;
     margin-top: 35%;
     color: var(--azul);
     font-size: 15px;
@@ -136,11 +137,14 @@ h3 {
     padding-top: 5px;
     padding-bottom: 5px;
     border: 2px solid var(--azul);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .asm:hover {
-    border-radius: 20px;
+    background-color: var(--azul);
+    color: var(--verde);
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 
