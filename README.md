@@ -2,12 +2,6 @@
 
 Este site tem como objetivo principal facilitar a integração de pessoas das áreas rurais às áreas urbanas, oferecendo histórias inspiradoras, oportunidades de emprego e suporte personalizado.
 
-## Índice
-
-- [Descrição](#descrição)
-- [Funcionalidades](#funcionalidades)
-- [Uso](#uso)
-
 ## Descrição
 
 O **Do campo a cidade** é um site projetado para apoiar a transição de pessoas que vivem em áreas rurais para áreas urbanas. O site oferece:
