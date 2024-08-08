@@ -13,7 +13,7 @@ O **Do campo a cidade** é um site projetado para apoiar a transição de pessoa
 ## Funcionalidades
 
 - **Histórias Inspiradoras**: Seção com histórias e relatos de sucesso, podendo tambem enviar seu proprio relato.
-- **Oportunidades de Emprego**: Seção para procurar empregos, insirindo no campo de pesquisa a palavra-chave ou cargo desejado, a localização e clicar em buscar.
+- **Oportunidades de Emprego**: Seção para procurar empregos, insira a palavra-chave ou o cargo desejado e a localização no campo de pesquisa, e em seguida, clique em buscar.
 - **Suporte Personalizado**: Nesta seção há três recursos para ajuda-lo: 1.Chat ao Vivo; 2.Email de Suporte; 3.Fórum de Discussão. Para obter mais informações, clique em Saiba mais.
 
 ## Uso 
